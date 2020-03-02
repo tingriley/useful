@@ -13,5 +13,14 @@ bool is_big_endian(void)
 }
 
 int main(){
-	printf("big endian: %d\n", is_big_endian());
+    pcprintf("big endian: %d\n", is_big_endian());
 }
+
+/*		Big Endian
+	a[]  0   1   2   3
+	   0x1 0x2 0x3 0x4
+	   
+	     Little Endian
+	a[]  0   1   2   3
+	   0x4 0x3 0x2 0x1
+*/
